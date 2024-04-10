@@ -8,8 +8,6 @@ This is the platform of a large association aiming to popularize organic consump
 | [maisonbiocmr](https://maisonbiocmr.com) | [N°00000044/RDA/J06/A2/SSJP/BAPP](https://maisonbiocmr.com) | [Mr.ZEBS](https://github.com/codeurzebs) | [Mr.Johnson](#)
 
 Internal intern ([ICTU-Student](https://github.com/ictustudentunion)):
-- [X] [Fongang](#)
-- [X] [VICTOR](#)
 - [X] [NICOLE](#)
 - [X] [MENGNJOH](#)
 - [X] [MINYONO](#)
