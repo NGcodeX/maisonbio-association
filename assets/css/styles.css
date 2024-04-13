@@ -7,8 +7,8 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(136, 70%, 54%);
-  --first-color-alt: hsl(154, 66%, 50%);
+  --first-color: hsl(136, 78%, 31%);
+  --first-color-alt: hsl(154, 81%, 44%);
   --title-color: hsl(355, 4%, 15%);
   --text-color: hsl(355, 4%, 35%);
   --text-color-light: hsl(355, 4%, 55%);
@@ -95,6 +95,9 @@ ul {
 a {
   text-decoration: none;
 }
+a, i {
+  text-decoration: none;
+}
 
 img {
   max-width: 100%;
@@ -127,6 +130,8 @@ body.dark-theme {
   --body-color: hsl(210, 25%, 10%); /* Bleu-vert sombre */
 --container-color: hsl(210, 20%, 15%); /* Bleu-vert légèrement plus clair */
 }
+
+
 
 /*========== 
     Color changes in some parts of 

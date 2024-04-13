@@ -8,7 +8,9 @@
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
         <!--=============== BOXICONS ===============-->
-        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
         <!--=============== SWIPER CSS ===============--> 
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
@@ -22,55 +24,58 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">
-                    <i class='bx bx-radio-circle-marked bx-tada' style='color:#07f522'  ></i>
-                    <img src="assets/img/logo.png" alt="" class="nav__logo-img"> 
-                    MaisonBio
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+    
                 </a>
-
+    
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="index.html#home" class="nav__link active-link">Accueil</a>
+                            <a href="index.html" class="nav__link">Maison</a>
                         </li>
                         <li class="nav__item">
-                            <a href="index.html#gift" class="nav__link">Produits</a>
+                            <a href="index.html#seminaire" class="nav__link">Seminaires</a>
                         </li>
                         <li class="nav__item">
-                            <a href="index.html#celebrate" class="nav__link">Commande</a>
+                            <a href="#discussion" class="nav__link">Discussions</a>
                         </li>
                         <li class="nav__item">
-                            <a href="index.html#new" class="nav__link">Promotion</a>
+                            <a href="#produit" class="nav__link">Produits</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Contact</a>
+                            <a href="index.html#promotion" class="nav__link">Promo</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="tel:+237699715884" class="nav__link">Contact</a>
                         </li>
                     </ul>
-
+    
                     <div class="nav__close" id="nav-close">
-                        <i class='bx bx-x' ></i>
+                        <i class='bx bx-x'></i>
                     </div>
-
+    
                     <img src="assets/img/nav-light.png" alt="" class="nav__img">
                 </div>
                 <div class="nav__btns">
-                    <!-- Theme change button et account -->
-                    <i class='bx bx-store bx-flashing' title="Boutique Bio"></i>
-                    <i class='bx bx-map' title="Map de Localisation de MaisonBio"></i>
-                    <i class='bx bx-moon change-theme' id="theme-button" title="Mode Sombre"></i>
-                    <i class='bx bx-user-circle' title="Connexion a votre compte maisonBio"></i>
-                    <!-- Toggle button -->
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class='bx bx-grid-alt' ></i>
-                    </div>
+                <!-- Theme change button et account -->
+                <a href="boutiquebio.html"><i class='bx bx-store change-theme' title="Boutique de l'Association maisonBio"></i></a>
+                <a href="https://maps.app.goo.gl/EPPXzAHWy6Sto8h3A" target="_blank"><i class='bx bx-map change-theme'
+                        title="Map de Localisation de MaisonBio"></i></a>
+                <i class='bx bx-moon change-theme' id="theme-button" title="Mode Sombre"></i>
+                <a href="login/login.html"><i class='bx bx-user-circle change-theme'
+                        title="Connexion a votre compte maisonBio"></i></a>
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
                 </div>
-
+            </div>
             </nav>
         </header>
             
             <!--====================  Produits Bio ====================-->
-            <section class="gift section container" id="gift" style="text-align: center;" >
-                <h2 class="section__title"><i class='bx bx-star' ></i> Produits Bio Populaire...</h2>
+            <section class="gift section container" id="produit" style="text-align: center;" >
+                <h2 class="section__title"><i class='bx bx-star' ></i> Produits Bio</h2>
 
                 <div class="gift__container grid">
                     <article class="gift__card">
@@ -89,6 +94,15 @@
                         <i class='bx bx-money bx-flashing' style='color:#36f11c' ></i>
                         <h3 class="gift__price">$13</br>7.000CFA</h3>
                         <span class="gift__title">Thé Beauté Minceur</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <img src="assets/img/kassia.png" alt="" class="gift__img">
+                        <i class='bx bx-heart gift__icon'></i>
+                        
+                        <i class='bx bx-money bx-flashing' style='color:#36f11c' ></i>
+                        <h3 class="gift__price">$19</br>10.000CFA</h3>
+                        <span class="gift__title">Casea tea</span>
                     </article>
 
                     <article class="gift__card">
@@ -126,33 +140,9 @@
                         <h3 class="gift__price">$--<br>--CFA</h3>
                         <span class="gift__title">Itera Care</span>
                     </article>
-
-                    <article class="gift__card">
-                        <img src="assets/img/woodvine.png" alt="" class="gift__img">
-                        <i class='bx bx-heart gift__icon'></i>
-                        
-                        <i class='bx bx-money bx-flashing' style='color:#36f11c' ></i>
-                        <h3 class="gift__price">$26</br>15.000CFA</h3>
-                        <span class="gift__title"> Wood Vinegar Detox Plasters</span>
-                    </article>
-
-                    <article class="gift__card">
-                        <img src="assets/img/woodvine.png" alt="" class="gift__img">
-                        <i class='bx bx-heart gift__icon'></i>
-                        
-                        <i class='bx bx-money bx-flashing' style='color:#36f11c' ></i>
-                        <h3 class="gift__price">$26</br>15.000CFA</h3>
-                        <span class="gift__title"> Wood Vinegar Detox Plasters</span>
-                    </article>
-
-                    <article class="gift__card">
-                        <img src="assets/img/woodvine.png" alt="" class="gift__img">
-                        <i class='bx bx-heart gift__icon'></i>
-                        
-                        <i class='bx bx-money bx-flashing' style='color:#36f11c' ></i>
-                        <h3 class="gift__price">$26</br>15.000CFA</h3>
-                        <span class="gift__title"> Wood Vinegar Detox Plasters</span>
-                    </article>
+                </div>
+                <div style="padding-top: 2em;">
+                    <a href="boutiquebio.html" class="button"><i class='bx bx-box'></i> Se connecter</a>
                 </div>
             </section>
 
@@ -192,7 +182,7 @@
                                 <span class="new__title">Fer A Repasser</span>
                                 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -204,7 +194,7 @@
                                 <span class="new__title">Filtre Eau</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -216,7 +206,7 @@
                                 <span class="new__title">Ventilateur</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -228,7 +218,7 @@
                                 <span class="new__title">Plaque Gaz</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -240,7 +230,7 @@
                                 <span class="new__title">Cafetiere</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -252,7 +242,7 @@
                                 <span class="new__title">Plaque chauffante</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -264,7 +254,7 @@
                                 <span class="new__title">Cocotte minute</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -276,7 +266,7 @@
                                 <span class="new__title">Moulinex</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -288,7 +278,7 @@
                                 <span class="new__title">Telephone</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -300,7 +290,7 @@
                                 <span class="new__title">TV "50 Pouces</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -312,7 +302,7 @@
                                 <span class="new__title">Cusiniere</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -324,7 +314,7 @@
                                 <span class="new__title">Machine Laver</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
 
@@ -336,7 +326,7 @@
                                 <span class="new__title">Frigo</span>
 
                                 <button class="button new__button">
-                                    <i class='bx bx-heart new__icon'></i>
+                                    <i class='bx bx-log-in new__icon'></i>
                                 </button>
                             </article>
                         </div>
@@ -347,10 +337,10 @@
             </section>
 
             <!--==================== Témoignages ====================-->
-            <section class="message section container">
+            <section class="message section container" id="discussion">
                 <div class="message__container grid">
                         <h2 class="message__title">Témoignages et<br> discussions<br> communautaire!</h2>
-                        <button class="button message__button"><i class='bx bxl-whatsapp'></i> Rejoindre la Communauté MaisonBio</button>
+                        <button class="button message__button"><i class='bx bxl-whatsapp'></i> Rejoindre l'association MaisonBio</button>
                         <img src="assets/img/galebio.PNG" alt="" class="message__img">
                         <img src="assets/img/biocommu.png" alt="" class="message__img">
                 </div>
@@ -365,21 +355,22 @@
                         <img src="assets/img/logo.png" alt="" class="footer__logo-img"> 
                         MaisonBio
                     </a>
-                    +237 692 07 70 05 <br> maisonbioyde@gmail.com
+                    +237 699 71 58 84 <br>
+                    +237 677 53 43 65 <br>
+                     maisonbioyde@gmail.com
                     <p class="footer__description">
-                        La santé naturelle ne consiste<br> pas seulement en l'absence de <br>maladie, mais en l'harmonie<br> totale du corps, de l'esprit et de l'âme.
+                        N’attendez pas, commencez votre <br> voyage vers une vie plus saine <br> et plus heureuse avec MaisonBio <br> dès aujourd’hui !
                     </p>
                 </div>
-
                 <div>
-                    <h3 class="footer__title">Liens Utils</h3>
+                    <h3 class="footer__title">Liens Compte</h3>
 
                     <ul class="footer__links">
                         <li>
-                            <a href="#" class="footer__link">Association</a>
+                            <a href="#" class="footer__link">Compte</a>
                         </li>
                         <li>
-                            <a href="#" class="footer__link">Réductions</a>
+                            <a href="#" class="footer__link">Produits</a>
                         </li>
                         <li>
                             <a href="#" class="footer__link">Mode d'expédition</a>
@@ -395,7 +386,7 @@
                             <a href="#" class="footer__link">FAQs</a>
                         </li>
                         <li>
-                            <a href="#" class="footer__link"> centre Support</a>
+                            <a href="#" class="footer__link"> Devenir membre</a>
                         </li>
                         <li>
                             <a href="#" class="footer__link">Contact Bio</a>
@@ -407,7 +398,7 @@
                     <h3 class="footer__title">Autorisations</h3>
 
                     <div class="footer__aviables">
-                        <img src="assets/img/autobio.png" alt="" class="footer__aviable-img">
+                       <a href="https://minat.gov.cm/" target="_blank"><img src="assets/img/autobio.png" alt="" class="footer__aviable-img"></a>
                         <img src="assets/img/autobio.png" alt="" class="footer__aviable-img">
                     </div>
                 </div>
@@ -416,7 +407,7 @@
                 <img src="assets/img/fruitbio.png" alt="" class="footer__img2">
             </div>
 
-            <span class="footer__copy"><i class='bx bxl-java'></i>&#169;2023 MaisonBio. Tous droits réservés || Yaoundé, Cameroun</span>
+            <span class="footer__copy"><i class='bx bxl-java'></i>&#169;2024 Association MaisonBio. Tous droits réservés || N°00000044/RDA/J06/A2/SSJP/BAPP</span>
         </footer>
         <a href="#" class="scrollup" id="scroll-up"> 
             <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
